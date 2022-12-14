@@ -1,0 +1,54 @@
+:root {
+    --clr-green: #637760;
+    --clr-beige: #d1cdc1;
+    --clr-orange: #FD5631;
+    --clr-white: #fff;
+}
+
+/* Font */
+@font-face {
+    font-family: 'Ansungtangmyun-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/Ansungtangmyun-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Reset */
+ul, ol, li {
+    list-style: none;
+}
+
+body {
+    width: 1180px;
+    margin: 0 auto;
+    font-family: 'GmarketSansMedium';
+}
+
+/* 커뮤니티 텍스트 */
+.nav-link.dropdown-toggle {
+    font-weight: 400;
+    padding: 0;
+}
+
+/* 행사 및 기획전 텍스트 */
+.category {
+    display: block;
+    color: var(--clr-orange);
+}
+
+/* 더 보러가기 버튼 */
+.more {
+    color: var(--clr-orange);
+}
+
+/* 예매하기 버튼 */
+.btn.btn-primary.rounded-pill.px-5 {
+    font-size: 1.25rem;
+}
